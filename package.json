@@ -1,0 +1,40 @@
+{
+  "bugs": {
+    "url": "https://github.com/seek-oss/fake-hr/issues"
+  },
+  "dependencies": {},
+  "description": "HR data sets for mocking and testing",
+  "devDependencies": {
+    "skuba": "3.7.4"
+  },
+  "files": [
+    "lib*/**/*.d.ts",
+    "lib*/**/*.js",
+    "lib*/**/*.js.map"
+  ],
+  "homepage": "https://github.com/seek-oss/fake-hr#readme",
+  "license": "MIT",
+  "main": "./lib-commonjs/index.js",
+  "module": "./lib-es2015/index.js",
+  "name": "fake-hr",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seek-oss/fake-hr.git"
+  },
+  "scripts": {
+    "build": "skuba build-package",
+    "format": "skuba format",
+    "lint": "skuba lint",
+    "release": "yarn build && skuba release",
+    "test": "skuba test"
+  },
+  "sideEffects": false,
+  "skuba": {
+    "entryPoint": "src/index.ts",
+    "template": "oss-npm-package",
+    "type": "package",
+    "version": "3.7.4"
+  },
+  "types": "./lib-types/index.d.ts",
+  "version": "0.0.0-semantically-released"
+}
