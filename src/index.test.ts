@@ -1,5 +1,7 @@
-import { log } from './index';
+import { fakeHr } from '.';
 
 describe('app', () => {
-  it('defines a log function', () => expect(log).toBeDefined());
+  it('defines education exports', () => {
+    expect(fakeHr.education.institutions).toBeDefined();
+  });
 });

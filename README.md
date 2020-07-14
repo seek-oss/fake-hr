@@ -2,11 +2,17 @@
 
 [![Powered by skuba](https://img.shields.io/badge/🤿%20skuba-powered-009DC4)](https://github.com/seek-oss/skuba)
 
-This package is intended to be public on [seek-oss].
-To create an internal package,
-run `skuba init` and select the `private-npm-package` template.
+fake-hr is a Node.js package that contains limited HR data sets.
 
-Please read [SEEK's Open Source RFC] before proceeding.
+It can be plugged into generators like [Chance] and [Faker] to supplement their built-in data sets,
+and is intentionally abstracted away from SEEK's own data structures and knowledge graphs.
+
+We use this to generate mock data for our [GraphQL Playground] and [Wingman mockup].
+
+[chance]: https://chancejs.com/
+[faker]: https://github.com/marak/Faker.js/
+[graphql playground]: https://developer.seek.com/graphql/playground
+[wingman mockup]: https://seek-oss.github.io/wingman/
 
 ## Table of contents
 
@@ -16,15 +22,18 @@ Please read [SEEK's Open Source RFC] before proceeding.
 
 ## API
 
-### `log`
+### `education.institutions`
 
-Writes "fake-hr" to stdout.
-Thrilling stuff.
+Get a list of education institutions.
 
 ```typescript
-import { log } from 'fake-hr';
+import { fakeHr } from 'fake-hr';
 
-log();
+fakeHr.education.institutions.all;
+// EducationInstitution[]
+
+fakeHr.education.institutions.filter({ country: 'au', level: [6, 7] });
+// EducationInstitution[]
 ```
 
 ## Development
