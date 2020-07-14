@@ -59,6 +59,27 @@ fakeHr.education.institutions.all[0];
 // }
 ```
 
+### `education.qualifications`
+
+Get a list of education qualifications.
+
+```typescript
+import { fakeHr } from 'fake-hr';
+
+fakeHr.education.qualifications.all;
+// EducationQualification[]
+
+fakeHr.education.qualifications.filter({ level: [2, 3] });
+// EducationQualification[]
+
+fakeHr.education.qualifications.all[0];
+// {
+//   countries: [ 'au' ],
+//   level: 2,
+//   name: 'Certificate I in Aboriginal and Torres Strait Islander Language and Knowledge Work'
+// }
+```
+
 ## Development
 
 ### Prerequisites
