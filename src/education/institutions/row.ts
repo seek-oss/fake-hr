@@ -144,7 +144,7 @@ export const universities: EducationInstitution[] = ([
     countries: ['cn'],
   },
   {
-    name: 'New York University (NYU)',
+    name: 'New York University',
     countries: ['us'],
   },
   {
@@ -168,7 +168,7 @@ export const universities: EducationInstitution[] = ([
     countries: ['us'],
   },
   {
-    name: 'Chinese University of Hong Kong (CUHK)',
+    name: 'Chinese University of Hong Kong',
     countries: ['hk'],
   },
   {
@@ -184,7 +184,7 @@ export const universities: EducationInstitution[] = ([
     countries: ['hk'],
   },
   {
-    name: 'London School of Economics and Political Science (LSE)',
+    name: 'London School of Economics and Political Science',
     countries: ['gb'],
   },
   {
