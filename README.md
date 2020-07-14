@@ -17,10 +17,26 @@ We use this to generate mock data for our [GraphQL Playground] and [Wingman mock
 ## Table of contents
 
 - [API](#api)
+  - [competencies](#competencies)
+  - [education.institutions](#educationinstitutions)
 - [Development](#development)
 - [Release](#release)
 
 ## API
+
+### `competencies`
+
+Get a list of competencies.
+
+```typescript
+import { fakeHr } from 'fake-hr';
+
+fakeHr.competencies.all;
+// string[]
+
+fakeHr.competencies.all[0];
+// Active Learning
+```
 
 ### `education.institutions`
 
@@ -34,6 +50,13 @@ fakeHr.education.institutions.all;
 
 fakeHr.education.institutions.filter({ country: 'au', level: [6, 7] });
 // EducationInstitution[]
+
+fakeHr.education.institutions.all[0];
+// {
+//   countries: [ 'au' ],
+//   name: 'Canberra Institute of Technology',
+//   levels: [ 2, 3, 4, 5 ]
+// }
 ```
 
 ## Development
