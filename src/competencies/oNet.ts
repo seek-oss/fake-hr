@@ -2,7 +2,7 @@
  * A selection of abilities and skills from the O*NET 24.3 Database, sponsored
  * by the U.S. Department of Labor, Employment and Training Administration.
  *
- * The database is licensed under a Creative Commons Attribution 4.0
+ * The database is provided under a Creative Commons Attribution 4.0
  * International License.
  *
  * {@link https://www.onetcenter.org/license_db.html}

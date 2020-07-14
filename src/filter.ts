@@ -1,11 +1,15 @@
+const isArray = <T>(input: T | ReadonlyArray<T>): input is ReadonlyArray<T> =>
+  Array.isArray(input);
+
 export const createSubsetMatcher = <T>(
-  value?: T | T[],
-): ((inputs: ReadonlyArray<T>) => boolean) => {
+  value?: T | ReadonlyArray<T>,
+): ((input: T | ReadonlyArray<T>) => boolean) => {
   if (typeof value === 'undefined') {
     return () => true;
   }
 
-  const values = new Set(Array.isArray(value) ? value : [value]);
+  const values = new Set(isArray(value) ? value : [value]);
 
-  return (inputs) => inputs.some((input) => values.has(input));
+  return (input) =>
+    isArray(input) ? input.some((i) => values.has(i)) : values.has(input);
 };

@@ -21,7 +21,20 @@ export const all: EducationInstitution[] = [
 ].flat();
 
 interface FilterProps {
+  /**
+   * Limit institutions to those that operate in at least one of the specified
+   * countries.
+   *
+   * Omit this filter to return institutions from all countries.
+   */
   country?: CountryCode | CountryCode[];
+
+  /**
+   * Limit institutions to those that offer an education programme that
+   * corresponds to at least one of the specified ISCED 2011 levels.
+   *
+   * Omit this filter to return institutions regardless of education level.
+   */
   level?: EducationLevel | EducationLevel[];
 }
 
