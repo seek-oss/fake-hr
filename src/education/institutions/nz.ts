@@ -38,7 +38,7 @@ export const itps: EducationInstitution[] = [
  * In our model, they have no overseas campuses and provide programmes across
  * ISCED 2011 levels 6–8.
  *
- * {@link https://en.wikipedia.org/wiki/List_of_universities_in_New_Zealand}
+ * {@link https://en.wikipedia.org/w/index.php?title=List_of_universities_in_New_Zealand&oldid=951388797}
  */
 export const universities: EducationInstitution[] = [
   'Auckland University of Technology',
