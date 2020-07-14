@@ -22,7 +22,7 @@ We use this to generate mock data for our [GraphQL Playground] and [Wingman mock
 
 ## API
 
-### `education.institution`
+### `education.institutions`
 
 Get a list of education institutions.
 
