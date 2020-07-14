@@ -1,7 +1,9 @@
 import { fakeHr } from '.';
 
 describe('app', () => {
-  it('defines education exports', () => {
-    expect(fakeHr.education.institutions).toBeDefined();
+  it('defines exports', () => {
+    expect(fakeHr.competencies.all).toBeDefined();
+    expect(fakeHr.education.institutions.all).toBeDefined();
+    expect(fakeHr.education.institutions.filter).toBeDefined();
   });
 });
