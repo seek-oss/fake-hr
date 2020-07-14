@@ -26,11 +26,12 @@
     "format": "skuba format",
     "lint": "skuba lint",
     "release": "yarn build && skuba release",
+    "start": "skuba start src/readme.ts",
     "test": "skuba test"
   },
   "sideEffects": false,
   "skuba": {
-    "entryPoint": "src/index.ts",
+    "entryPoint": null,
     "template": "oss-npm-package",
     "type": "package",
     "version": "3.7.4"
