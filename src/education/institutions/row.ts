@@ -381,6 +381,6 @@ export const universities: EducationInstitution[] = ([
   },
 ] as const).map((props) =>
   Object.assign(props, {
-    levels: [6, 7, 8] as const,
-  }),
+    levels: [6, 7, 8],
+  } as const),
 );
