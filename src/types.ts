@@ -38,3 +38,13 @@ export interface EducationInstitution {
  * The level of an education programme per ISCED 2011.
  */
 export type EducationLevel = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
+
+/**
+ * A certificate, diploma, degree, or similar that is granted upon successful
+ * completion of an education programme.
+ */
+export interface EducationQualification {
+  countries?: ReadonlyArray<CountryCode>;
+  level: EducationLevel;
+  name: string;
+}
