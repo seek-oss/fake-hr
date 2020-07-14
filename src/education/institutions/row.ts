@@ -5,6 +5,9 @@ import type { EducationInstitution } from '../../types';
  *
  * `au` and `nz` entries are removed to avoid duplication.
  *
+ * In our model, they have no overseas campuses and provide programmes across
+ * ISCED 2011 levels 6–8.
+ *
  * {@link https://www.topuniversities.com/university-rankings/world-university-rankings/2021}
  */
 export const universities: EducationInstitution[] = ([
