@@ -1,7 +1,29 @@
 /**
  * The alpha-2 identifier of a country per ISO 3166.
  */
-export type CountryCode = 'au' | 'nz' | 'us';
+export type CountryCode =
+  | 'ar'
+  | 'au'
+  | 'be'
+  | 'ca'
+  | 'ch'
+  | 'cn'
+  | 'de'
+  | 'dk'
+  | 'fr'
+  | 'gb'
+  | 'hk'
+  | 'jp'
+  | 'kr'
+  | 'mx'
+  | 'my'
+  | 'nl'
+  | 'nz'
+  | 'ru'
+  | 'se'
+  | 'sg'
+  | 'tw'
+  | 'us';
 
 /**
  * An institution that offers an education programme.

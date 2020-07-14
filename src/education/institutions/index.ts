@@ -7,6 +7,7 @@ import type {
 
 import * as au from './au';
 import * as nz from './nz';
+import * as row from './row';
 
 /**
  * A list of all education institutions in our limited data set.
@@ -16,6 +17,7 @@ export const all: EducationInstitution[] = [
   au.universities,
   nz.itps,
   nz.universities,
+  row.universities,
 ].flat();
 
 interface FilterProps {
