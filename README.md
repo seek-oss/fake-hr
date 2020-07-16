@@ -19,6 +19,7 @@ We use this to generate mock data for our [GraphQL Playground] and [Wingman mock
 - [API](#api)
   - [competencies](#competencies)
   - [education.institutions](#educationinstitutions)
+  - [education.qualifications](#educationqualifications)
 - [Development](#development)
 - [Release](#release)
 
