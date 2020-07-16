@@ -27,7 +27,7 @@ interface FilterProps {
    *
    * Omit this filter to return institutions from all countries.
    */
-  country?: CountryCode | CountryCode[];
+  country?: CountryCode | CountryCode[] | ReadonlyArray<CountryCode>;
 
   /**
    * Limit institutions to those that offer an education programme that
@@ -35,7 +35,7 @@ interface FilterProps {
    *
    * Omit this filter to return institutions regardless of education level.
    */
-  level?: EducationLevel | EducationLevel[];
+  level?: EducationLevel | EducationLevel[] | ReadonlyArray<EducationLevel>;
 }
 
 /**
