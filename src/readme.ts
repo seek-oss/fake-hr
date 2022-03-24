@@ -1,3 +1,5 @@
+// istanbul ignore file
+
 /* eslint-disable no-console */
 
 import { fakeHr } from '.';

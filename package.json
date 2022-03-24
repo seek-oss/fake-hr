@@ -27,7 +27,8 @@
     "lint": "skuba lint",
     "release": "yarn build && skuba release",
     "start": "skuba start src/readme.ts",
-    "test": "skuba test"
+    "test": "skuba test",
+    "test:ci": "skuba test --coverage"
   },
   "sideEffects": false,
   "skuba": {
