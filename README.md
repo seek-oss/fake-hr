@@ -86,33 +86,33 @@ fakeHr.education.qualifications.all[0];
 ### Prerequisites
 
 - Node.js LTS
-- Yarn 1.x
+- pnpm
 
 ```shell
-yarn install
+pnpm install
 ```
 
 ### Test
 
 ```shell
-yarn test
+pnpm run test
 ```
 
 ### Lint
 
 ```shell
 # fix
-yarn format
+pnpm run format
 
 # check
-yarn lint
+pnpm run lint
 ```
 
 ### Package
 
 ```shell
 # compile source
-yarn build
+pnpm run build
 
 # review bundle
 npm pack
@@ -136,12 +136,10 @@ on:
 
 It depends on this repo being hosted on [seek-oss] with appropriate access.
 
-To set up this repo for publishing, follow the instructions in our [OSS npm package guidance].
-
 ### Releasing latest
 
 Commits to the `master` branch will be released with the `latest` tag,
-which is the default used when running `npm install` or `yarn install`.
+which is the default used when running `pnpm install`.
 
 ### Releasing other dist-tags
 
@@ -162,9 +160,7 @@ Here are some branches that **semantic-release** supports by default:
 For more information, see the **semantic-release** docs on [triggering a release].
 
 [distribution tags]: https://docs.npmjs.com/adding-dist-tags-to-packages
-[oss npm package guidance]: https://github.com/SEEK-Jobs/seek-oss-ci/blob/master/NPM_PACKAGES.md#access-to-publish-to-npm
 [release workflow]: .github/workflows/release.yml
 [seek-oss]: https://github.com/seek-oss
-[seek's open source rfc]: https://rfc.skinfra.xyz/RFC016-Open-Source.html
 [semantic-release]: https://github.com/semantic-release/semantic-release
 [triggering a release]: https://github.com/semantic-release/semantic-release/#triggering-a-release
