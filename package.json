@@ -1,42 +1,46 @@
 {
+  "name": "fake-hr",
+  "version": "0.0.0-semantically-released",
+  "description": "HR data sets for mocking and testing",
+  "homepage": "https://github.com/seek-oss/fake-hr#readme",
   "bugs": {
     "url": "https://github.com/seek-oss/fake-hr/issues"
   },
-  "dependencies": {},
-  "description": "HR data sets for mocking and testing",
-  "devDependencies": {
-    "skuba": "3.17.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seek-oss/fake-hr.git"
   },
+  "license": "MIT",
+  "sideEffects": false,
+  "main": "./lib-commonjs/index.js",
+  "module": "./lib-es2015/index.js",
+  "types": "./lib-types/index.d.ts",
   "files": [
     "lib*/**/*.d.ts",
     "lib*/**/*.js",
     "lib*/**/*.js.map"
   ],
-  "homepage": "https://github.com/seek-oss/fake-hr#readme",
-  "license": "MIT",
-  "main": "./lib-commonjs/index.js",
-  "module": "./lib-es2015/index.js",
-  "name": "fake-hr",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/seek-oss/fake-hr.git"
-  },
   "scripts": {
     "build": "skuba build-package",
     "format": "skuba format",
     "lint": "skuba lint",
-    "release": "yarn build && skuba release",
+    "release": "pnpm run --silent build && skuba release",
     "start": "skuba start src/readme.ts",
     "test": "skuba test",
     "test:ci": "skuba test --coverage"
   },
-  "sideEffects": false,
+  "dependencies": {},
+  "devDependencies": {
+    "skuba": "7.3.1"
+  },
+  "packageManager": "pnpm@8.14.0",
+  "publishConfig": {
+    "provenance": true
+  },
   "skuba": {
     "entryPoint": null,
     "template": "oss-npm-package",
     "type": "package",
     "version": "3.7.4"
-  },
-  "types": "./lib-types/index.d.ts",
-  "version": "0.0.0-semantically-released"
+  }
 }
