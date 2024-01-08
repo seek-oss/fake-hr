@@ -29,8 +29,8 @@ export type CountryCode =
  * An institution that offers an education programme.
  */
 export interface EducationInstitution {
-  countries: ReadonlyArray<CountryCode>;
-  levels: ReadonlyArray<EducationLevel>;
+  countries: readonly CountryCode[];
+  levels: readonly EducationLevel[];
   name: string;
 }
 
@@ -44,7 +44,7 @@ export type EducationLevel = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
  * completion of an education programme.
  */
 export interface EducationQualification {
-  countries?: ReadonlyArray<CountryCode>;
+  countries?: readonly CountryCode[];
   level: EducationLevel;
   name: string;
 }

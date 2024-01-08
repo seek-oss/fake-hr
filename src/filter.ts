@@ -1,9 +1,9 @@
-const isArray = <T>(input: T | ReadonlyArray<T>): input is ReadonlyArray<T> =>
+const isArray = <T>(input: T | readonly T[]): input is readonly T[] =>
   Array.isArray(input);
 
 export const createSubsetMatcher = <T>(
-  value?: T | ReadonlyArray<T>,
-): ((input: T | ReadonlyArray<T>) => boolean) => {
+  value?: T | readonly T[],
+): ((input: T | readonly T[]) => boolean) => {
   if (typeof value === 'undefined') {
     return () => true;
   }
