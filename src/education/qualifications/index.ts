@@ -33,7 +33,7 @@ interface FilterProps {
    *
    * Omit this filter to return qualifications from all countries.
    */
-  country?: CountryCode | CountryCode[] | ReadonlyArray<CountryCode>;
+  country?: CountryCode | CountryCode[] | readonly CountryCode[];
 
   /**
    * Limit qualifications to those that correspond to at least one of the
@@ -41,7 +41,7 @@ interface FilterProps {
    *
    * Omit this filter to return qualifications regardless of education level.
    */
-  level?: EducationLevel | EducationLevel[] | ReadonlyArray<EducationLevel>;
+  level?: EducationLevel | EducationLevel[] | readonly EducationLevel[];
 }
 
 /**

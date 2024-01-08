@@ -72,7 +72,7 @@ export const certificate1s: EducationQualification[] = [
       countries: ['au'],
       level: 2,
       name: `Certificate I in ${area}`,
-    } as const),
+    }) as const,
 );
 
 export const certificate2s: EducationQualification[] = [
@@ -132,7 +132,7 @@ export const certificate2s: EducationQualification[] = [
       countries: ['au'],
       level: 2,
       name: `Certificate II in ${area}`,
-    } as const),
+    }) as const,
 );
 
 export const certificate3s: EducationQualification[] = [
@@ -192,7 +192,7 @@ export const certificate3s: EducationQualification[] = [
       countries: ['au'],
       level: 3,
       name: `Certificate III in ${area}`,
-    } as const),
+    }) as const,
 );
 
 export const certificate4s: EducationQualification[] = [
@@ -252,7 +252,7 @@ export const certificate4s: EducationQualification[] = [
       countries: ['au'],
       level: 4,
       name: `Certificate IV in ${area}`,
-    } as const),
+    }) as const,
 );
 
 export const diplomas: EducationQualification[] = [
@@ -312,7 +312,7 @@ export const diplomas: EducationQualification[] = [
       countries: ['au'],
       level: 5,
       name: `Diploma of ${area}`,
-    } as const),
+    }) as const,
 );
 
 export const advancedDiplomas: EducationQualification[] = [
@@ -372,5 +372,5 @@ export const advancedDiplomas: EducationQualification[] = [
       countries: ['au'],
       level: 5,
       name: `Advanced Diploma of ${area}`,
-    } as const),
+    }) as const,
 );

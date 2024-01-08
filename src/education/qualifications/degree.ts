@@ -83,7 +83,7 @@ export const associates: EducationQualification[] = [
     'Science in Industrial Maintenance Technology',
     'Science in Interactive & Graphic Art',
   ].map((area) => `Associate of ${area}`),
-].map((name) => ({ level: 5, name } as const));
+].map((name) => ({ level: 5, name }) as const);
 
 export const bachelors: EducationQualification[] = [
   'Accountancy',
@@ -215,7 +215,7 @@ export const bachelors: EducationQualification[] = [
   'Science in Veterinary Technology',
   'Social Work',
   'Technology',
-].map((area) => ({ level: 6, name: `Bachelor of ${area}` } as const));
+].map((area) => ({ level: 6, name: `Bachelor of ${area}` }) as const);
 
 export const masters: EducationQualification[] = [
   'Master in Creative Technologies',
@@ -367,7 +367,7 @@ export const masters: EducationQualification[] = [
     'Urban Planning',
     'Veterinary Science',
   ].map((area) => `Master of ${area}`),
-].map((name) => ({ level: 7, name } as const));
+].map((name) => ({ level: 7, name }) as const);
 
 export const doctorals: EducationQualification[] = [
   'Arts',
@@ -403,4 +403,4 @@ export const doctorals: EducationQualification[] = [
   'Science',
   'Theology',
   'Veterinary Medicine',
-].map((area) => ({ level: 8, name: `Doctor of ${area}` } as const));
+].map((area) => ({ level: 8, name: `Doctor of ${area}` }) as const);
