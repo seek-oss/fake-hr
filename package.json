@@ -33,7 +33,7 @@
   "devDependencies": {
     "skuba": "7.5.1"
   },
-  "packageManager": "pnpm@8.15.4",
+  "packageManager": "pnpm@8.15.5",
   "publishConfig": {
     "provenance": true
   },
