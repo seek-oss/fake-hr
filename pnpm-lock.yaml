@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   skuba:
-    specifier: 8.0.0
-    version: 8.0.0(@babel/core@7.24.4)
+    specifier: 8.0.1
+    version: 8.0.1(@babel/core@7.24.4)
 
 packages:
 
@@ -6253,8 +6253,8 @@ packages:
       unicode-emoji-modifier-base: 1.0.0
     dev: true
 
-  /skuba@8.0.0(@babel/core@7.24.4):
-    resolution: {integrity: sha512-5kY0ujXIPmxbyBT4pPFLiYJLlFPRHsydGaCdPVhe4/+Xq6Aoxvaa/4/vHxCwCVlEzlyx40J3Sb9dfMIbRqKn8Q==}
+  /skuba@8.0.1(@babel/core@7.24.4):
+    resolution: {integrity: sha512-HPcZG+OlQsDfrqdx99rT5Bri9ftoV10z3GPjwz8oe98pJMyaDfsZ/Vr/ADqqMTpL6mmuslq/TSH31FEo5USQCw==}
     engines: {node: '>=18.18.0'}
     hasBin: true
     peerDependencies:
@@ -6268,7 +6268,7 @@ packages:
       '@octokit/graphql': 8.1.0
       '@octokit/graphql-schema': 15.5.0
       '@octokit/rest': 20.1.0
-      '@octokit/types': 12.6.0
+      '@octokit/types': 13.2.0
       '@types/jest': 29.5.12
       '@types/node': 20.12.6
       chalk: 4.1.2
