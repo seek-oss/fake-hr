@@ -31,7 +31,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "skuba": "9.1.0"
+    "skuba": "10.0.1"
   },
   "packageManager": "pnpm@9.15.4",
   "publishConfig": {
