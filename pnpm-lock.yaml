@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       skuba:
-        specifier: 10.0.3
-        version: 10.0.3(@babel/core@7.26.7)(@jest/transform@29.7.0)(@typescript-eslint/eslint-plugin@8.26.1(@typescript-eslint/parser@8.26.1(eslint@9.19.0)(typescript@5.8.2))(eslint@9.19.0)(typescript@5.8.2))(babel-jest@29.7.0(@babel/core@7.26.7))
+        specifier: 10.1.0
+        version: 10.1.0(@babel/core@7.26.7)(@jest/transform@29.7.0)(@typescript-eslint/eslint-plugin@8.26.1(@typescript-eslint/parser@8.26.1(eslint@9.19.0)(typescript@5.8.2))(eslint@9.19.0)(typescript@5.8.2))(babel-jest@29.7.0(@babel/core@7.26.7))
 
 packages:
 
@@ -1579,8 +1579,8 @@ packages:
       eslint: '>=9.9.1'
       typescript: '>=5.5.4'
 
-  eslint-config-skuba@5.1.2:
-    resolution: {integrity: sha512-1AWvtO/B1TexWLi8b4co8oleKKCWtopb6Flgp3NZ6T4IajITYoR+WNMIwOJbe46b8cXMP3Wes5H5cD+mDKXtBA==}
+  eslint-config-skuba@5.1.3:
+    resolution: {integrity: sha512-P8x3wUPVaPZAQQU1hqFzGrq1PyNdBnqt8eVGagg9Yl/vHR2GEwQoiXLE5UiJxLg+o1U+Zs67NIuXcFjSQIWLLQ==}
     engines: {node: '>=18.18.0'}
     peerDependencies:
       eslint: '>=9.11.1'
@@ -3274,8 +3274,8 @@ packages:
     resolution: {integrity: sha512-kUMbT1oBJCpgrnKoSr0o6wPtvRWT9W9UKvGLwfJYO2WuahZRHOpEyL1ckyMGgMWh0UdpmaoFqKKD29WTomNEGA==}
     engines: {node: '>=8'}
 
-  skuba@10.0.3:
-    resolution: {integrity: sha512-++tkGAM3ZfcCZUD2vcGdrYCGrsvIT+yyr7i+8ix3Lm1BKhrjWP9+S7WR8pReei19jLz1fG8mbsQr9FOU4Y4ASw==}
+  skuba@10.1.0:
+    resolution: {integrity: sha512-8RCG5jkIY/nqx3nFroD21gOySV4aFa16rnQfoFsCuf1qkeB64jF3zTZda5spu3t0vaXyP1ZGkWUN36dh1IHeQQ==}
     engines: {node: '>=18.18.0'}
     hasBin: true
     peerDependencies:
@@ -5596,7 +5596,7 @@ snapshots:
       - jest
       - supports-color
 
-  eslint-config-skuba@5.1.2(@typescript-eslint/eslint-plugin@8.26.1(@typescript-eslint/parser@8.26.1(eslint@9.19.0)(typescript@5.8.2))(eslint@9.19.0)(typescript@5.8.2))(eslint@9.19.0)(jest@29.7.0(@types/node@22.13.10)(ts-node@10.9.2(@types/node@22.13.10)(typescript@5.8.2)))(typescript@5.8.2):
+  eslint-config-skuba@5.1.3(@typescript-eslint/eslint-plugin@8.26.1(@typescript-eslint/parser@8.26.1(eslint@9.19.0)(typescript@5.8.2))(eslint@9.19.0)(typescript@5.8.2))(eslint@9.19.0)(jest@29.7.0(@types/node@22.13.10)(ts-node@10.9.2(@types/node@22.13.10)(typescript@5.8.2)))(typescript@5.8.2):
     dependencies:
       eslint: 9.19.0
       eslint-config-seek: 14.3.2(@typescript-eslint/eslint-plugin@8.26.1(@typescript-eslint/parser@8.26.1(eslint@9.19.0)(typescript@5.8.2))(eslint@9.19.0)(typescript@5.8.2))(eslint@9.19.0)(jest@29.7.0(@types/node@22.13.10)(ts-node@10.9.2(@types/node@22.13.10)(typescript@5.8.2)))(typescript@5.8.2)
@@ -7555,7 +7555,7 @@ snapshots:
     dependencies:
       unicode-emoji-modifier-base: 1.0.0
 
-  skuba@10.0.3(@babel/core@7.26.7)(@jest/transform@29.7.0)(@typescript-eslint/eslint-plugin@8.26.1(@typescript-eslint/parser@8.26.1(eslint@9.19.0)(typescript@5.8.2))(eslint@9.19.0)(typescript@5.8.2))(babel-jest@29.7.0(@babel/core@7.26.7)):
+  skuba@10.1.0(@babel/core@7.26.7)(@jest/transform@29.7.0)(@typescript-eslint/eslint-plugin@8.26.1(@typescript-eslint/parser@8.26.1(eslint@9.19.0)(typescript@5.8.2))(eslint@9.19.0)(typescript@5.8.2))(babel-jest@29.7.0(@babel/core@7.26.7)):
     dependencies:
       '@esbuild-plugins/tsconfig-paths': 0.1.2(esbuild@0.25.1)(typescript@5.8.2)
       '@eslint/migrate-config': 1.3.6(eslint@9.19.0)
@@ -7573,7 +7573,7 @@ snapshots:
       enquirer: 2.4.1
       esbuild: 0.25.1
       eslint: 9.19.0
-      eslint-config-skuba: 5.1.2(@typescript-eslint/eslint-plugin@8.26.1(@typescript-eslint/parser@8.26.1(eslint@9.19.0)(typescript@5.8.2))(eslint@9.19.0)(typescript@5.8.2))(eslint@9.19.0)(jest@29.7.0(@types/node@22.13.10)(ts-node@10.9.2(@types/node@22.13.10)(typescript@5.8.2)))(typescript@5.8.2)
+      eslint-config-skuba: 5.1.3(@typescript-eslint/eslint-plugin@8.26.1(@typescript-eslint/parser@8.26.1(eslint@9.19.0)(typescript@5.8.2))(eslint@9.19.0)(typescript@5.8.2))(eslint@9.19.0)(jest@29.7.0(@types/node@22.13.10)(ts-node@10.9.2(@types/node@22.13.10)(typescript@5.8.2)))(typescript@5.8.2)
       execa: 5.1.1
       fast-glob: 3.3.3
       find-up: 5.0.0
