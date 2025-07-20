@@ -13,7 +13,7 @@
  * {@link https://www.ncver.edu.au/copyright}
  */
 
-import type { EducationQualification } from '../../types';
+import type { EducationQualification } from '../../types.js';
 
 export const certificate1s: EducationQualification[] = [
   'Aboriginal and Torres Strait Islander Language and Knowledge Work',

@@ -1,4 +1,4 @@
-import type { EducationInstitution } from '../../types';
+import type { EducationInstitution } from '../../types.js';
 
 /**
  * Non-exhaustive list of TAFE institutes in Australia.

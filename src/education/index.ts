@@ -1,2 +1,2 @@
-export * as institutions from './institutions';
-export * as qualifications from './qualifications';
+export * as institutions from './institutions/index.js';
+export * as qualifications from './qualifications/index.js';

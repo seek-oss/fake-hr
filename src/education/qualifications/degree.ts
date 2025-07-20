@@ -4,7 +4,7 @@
  * {@link https://en.wikipedia.org/w/index.php?title=List_of_tagged_degrees&oldid=964753183}
  */
 
-import type { EducationQualification } from '../../types';
+import type { EducationQualification } from '../../types.js';
 
 export const associates: EducationQualification[] = [
   ...[

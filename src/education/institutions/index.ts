@@ -1,13 +1,13 @@
-import { createSubsetMatcher } from '../../filter';
+import { createSubsetMatcher } from '../../filter.js';
 import type {
   CountryCode,
   EducationInstitution,
   EducationLevel,
-} from '../../types';
+} from '../../types.js';
 
-import * as au from './au';
-import * as nz from './nz';
-import * as row from './row';
+import * as au from './au.js';
+import * as nz from './nz.js';
+import * as row from './row.js';
 
 /**
  * A list of all education institutions in our limited data set.

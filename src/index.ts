@@ -1,1 +1,1 @@
-export * as fakeHr from './fakeHr';
+export * as fakeHr from './fakeHr.js';

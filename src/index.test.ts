@@ -1,4 +1,4 @@
-import { fakeHr } from '.';
+import { fakeHr } from './index.js';
 
 describe('app', () => {
   it('defines exports', () => {

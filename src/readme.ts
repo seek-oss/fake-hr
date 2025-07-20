@@ -2,7 +2,7 @@
 
 /* eslint-disable no-console */
 
-import { fakeHr } from '.';
+import { fakeHr } from './index.js';
 
 console.log(fakeHr.competencies.all[0]);
 
