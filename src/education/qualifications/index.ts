@@ -1,12 +1,12 @@
-import { createSubsetMatcher } from '../../filter';
+import { createSubsetMatcher } from '../../filter.js';
 import type {
   CountryCode,
   EducationLevel,
   EducationQualification,
-} from '../../types';
+} from '../../types.js';
 
-import * as au from './au';
-import * as degree from './degree';
+import * as au from './au.js';
+import * as degree from './degree.js';
 
 /**
  * A list of all education qualifications in our limited data set.

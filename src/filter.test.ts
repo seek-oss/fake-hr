@@ -1,4 +1,4 @@
-import { createSubsetMatcher } from './filter';
+import { createSubsetMatcher } from './filter.js';
 
 describe('createSubsetMatcher', () => {
   describe('given no values', () => {

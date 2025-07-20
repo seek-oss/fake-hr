@@ -1,4 +1,4 @@
-import * as qualifications from '.';
+import * as qualifications from './index.js';
 
 describe('filter', () => {
   it('passes through all by default', () =>

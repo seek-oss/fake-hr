@@ -1,4 +1,4 @@
-import * as institutions from '.';
+import * as institutions from './index.js';
 
 describe('filter', () => {
   it('passes through all by default', () =>

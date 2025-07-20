@@ -1,5 +1,5 @@
-import * as oNet from './oNet';
-import * as theSims from './theSims';
+import * as oNet from './oNet.js';
+import * as theSims from './theSims.js';
 
 /**
  * A list of all competencies in our limited data set.

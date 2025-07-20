@@ -1,4 +1,4 @@
-import type { EducationInstitution } from '../../types';
+import type { EducationInstitution } from '../../types.js';
 
 /**
  * Subset of the 2021 edition of the QS World University Rankings.
