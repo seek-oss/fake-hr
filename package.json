@@ -31,7 +31,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "skuba": "12.0.2"
+    "skuba": "12.1.1"
   },
   "packageManager": "pnpm@10.13.1",
   "publishConfig": {
@@ -41,6 +41,6 @@
     "entryPoint": null,
     "template": "oss-npm-package",
     "type": "package",
-    "version": "11.0.0"
+    "version": "12.1.1"
   }
 }
