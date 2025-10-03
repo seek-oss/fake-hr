@@ -128,10 +128,7 @@ The workflow runs on select branches:
 on:
   push:
     branches:
-      # add others as necessary
-      - beta
       - master
-      # - alpha
 ```
 
 It depends on this repo being hosted on [seek-oss] with appropriate access.
@@ -140,24 +137,6 @@ It depends on this repo being hosted on [seek-oss] with appropriate access.
 
 Commits to the `master` branch will be released with the `latest` tag,
 which is the default used when running `pnpm install`.
-
-### Releasing other dist-tags
-
-**[semantic-release]** prescribes a branch-based workflow for managing [distribution tags].
-
-You can push to other branches to manage betas, maintenance updates to prior major versions, and more.
-
-Here are some branches that **semantic-release** supports by default:
-
-| Git branch | npm dist-tag |
-| :--------- | :----------- |
-| master     | latest       |
-| alpha      | alpha        |
-| beta       | beta         |
-| next       | next         |
-| 1.x        | release-1.x  |
-
-For more information, see the **semantic-release** docs on [triggering a release].
 
 [distribution tags]: https://docs.npmjs.com/adding-dist-tags-to-packages
 [release workflow]: .github/workflows/release.yml
