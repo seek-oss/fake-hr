@@ -32,6 +32,10 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      # Ensure npm 11.5.1 or later is installed
+      - name: Install latest npm
+        run: npm install -g npm@latest
+
       - name: Publish to npm
         uses: changesets/action@v1
         with:
@@ -61,6 +65,10 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      # Ensure npm 11.5.1 or later is installed
+      - name: Install latest npm
+        run: npm install -g npm@latest
 
       - name: Publish to npm
         uses: seek-oss/changesets-snapshot@v0
