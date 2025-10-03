@@ -1,6 +1,6 @@
 {
   "name": "fake-hr",
-  "version": "0.0.0-semantically-released",
+  "version": "1.3.0",
   "description": "HR data sets for mocking and testing",
   "homepage": "https://github.com/seek-oss/fake-hr#readme",
   "bugs": {
@@ -24,13 +24,16 @@
     "build": "skuba build-package",
     "format": "skuba format",
     "lint": "skuba lint",
-    "release": "pnpm run --silent build && skuba release",
+    "release": "pnpm run --silent build && changeset publish",
+    "stage": "changeset version && node ./.changeset/inject.js && pnpm format",
     "start": "skuba start src/readme.ts",
     "test": "skuba test",
     "test:ci": "skuba test --coverage"
   },
   "dependencies": {},
   "devDependencies": {
+    "@changesets/cli": "2.29.7",
+    "@changesets/get-github-info": "0.6.0",
     "skuba": "12.4.1"
   },
   "packageManager": "pnpm@10.17.1",
