@@ -36,7 +36,7 @@
     "@changesets/get-github-info": "0.6.0",
     "skuba": "12.4.1"
   },
-  "packageManager": "pnpm@10.17.1",
+  "packageManager": "pnpm@10.18.0",
   "publishConfig": {
     "provenance": true
   },
