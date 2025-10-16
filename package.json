@@ -34,7 +34,7 @@
   "devDependencies": {
     "@changesets/cli": "2.29.7",
     "@changesets/get-github-info": "0.6.0",
-    "skuba": "12.4.1"
+    "skuba": "13.0.2"
   },
   "packageManager": "pnpm@10.18.0",
   "publishConfig": {
@@ -44,6 +44,6 @@
     "entryPoint": null,
     "template": "oss-npm-package",
     "type": "package",
-    "version": "12.4.1"
+    "version": "13.0.2"
   }
 }
