@@ -22,17 +22,19 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+
       - name: Set up Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: 22.x
-          package-manager-cache: false
+          node-version-file: .nvmrc
 
       - name: Set up pnpm
         run: corepack enable pnpm
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
 
       # Ensure npm 11.5.1 or later is installed
       - name: Install latest npm
@@ -57,17 +59,19 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+
       - name: Set up Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: 22.x
-          package-manager-cache: false
+          node-version-file: .nvmrc
 
       - name: Set up pnpm
         run: corepack enable pnpm
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
 
       # Ensure npm 11.5.1 or later is installed
       - name: Install latest npm
