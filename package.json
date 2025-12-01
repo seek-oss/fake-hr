@@ -32,8 +32,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@changesets/cli": "2.29.7",
-    "@changesets/get-github-info": "0.6.0",
+    "@changesets/cli": "2.29.8",
+    "@changesets/get-github-info": "0.7.0",
     "skuba": "13.0.3"
   },
   "packageManager": "pnpm@10.22.0",
