@@ -59,6 +59,6 @@
     "entryPoint": null,
     "template": "oss-npm-package",
     "type": "package",
-    "version": "15.0.1"
+    "version": "15.3.0"
   }
 }
