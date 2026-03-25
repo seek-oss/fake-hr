@@ -1,6 +1,6 @@
 {
   "name": "fake-hr",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "HR data sets for mocking and testing",
   "homepage": "https://github.com/seek-oss/fake-hr#readme",
   "bugs": {
