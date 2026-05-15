@@ -40,7 +40,7 @@
   "devDependencies": {
     "@changesets/cli": "2.31.0",
     "@changesets/get-github-info": "0.8.0",
-    "skuba": "15.3.0"
+    "skuba": "16.0.6"
   },
   "packageManager": "pnpm@10.33.2",
   "engines": {
