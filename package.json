@@ -12,6 +12,7 @@
   },
   "license": "MIT",
   "sideEffects": false,
+  "type": "module",
   "exports": {
     ".": {
       "@seek/fake-hr/source": "./src/index.ts",
@@ -59,6 +60,6 @@
     "entryPoint": null,
     "template": "oss-npm-package",
     "type": "package",
-    "version": "15.3.0"
+    "version": "16.0.7"
   }
 }
