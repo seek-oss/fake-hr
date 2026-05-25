@@ -12,6 +12,7 @@
   },
   "license": "MIT",
   "sideEffects": false,
+  "type": "module",
   "exports": {
     ".": {
       "@seek/fake-hr/source": "./src/index.ts",
@@ -40,7 +41,7 @@
   "devDependencies": {
     "@changesets/cli": "2.31.0",
     "@changesets/get-github-info": "0.8.0",
-    "skuba": "15.3.0"
+    "skuba": "16.0.7"
   },
   "packageManager": "pnpm@10.33.2",
   "engines": {
@@ -59,6 +60,6 @@
     "entryPoint": null,
     "template": "oss-npm-package",
     "type": "package",
-    "version": "15.3.0"
+    "version": "16.0.7"
   }
 }
