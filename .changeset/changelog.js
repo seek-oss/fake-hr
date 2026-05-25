@@ -1,7 +1,7 @@
-const {
+import {
   getInfo,
   getInfoFromPullRequest,
-} = require('@changesets/get-github-info');
+} from '@changesets/get-github-info';
 
 /**
  * Bold the scope of the changelog entry.
@@ -163,15 +163,17 @@ const gitHubChangelogFunctions = {
   },
 };
 
-if (process.env.GITHUB_TOKEN) {
-  module.exports = gitHubChangelogFunctions;
-} else {
+const changelogFunctions = process.env.GITHUB_TOKEN
+  ? gitHubChangelogFunctions
+  : defaultChangelogFunctions;
+
+if (!process.env.GITHUB_TOKEN) {
   // eslint-disable-next-line no-console
   console.warn(
     `Defaulting to Git-based versioning.
 Enable GitHub-based versioning by setting the GITHUB_TOKEN environment variable.
 This requires a GitHub personal access token with the \`public_repo\` scope: https://github.com/settings/tokens/new`,
   );
-
-  module.exports = defaultChangelogFunctions;
 }
+
+export default changelogFunctions;
