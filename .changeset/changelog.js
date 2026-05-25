@@ -1,7 +1,4 @@
-import {
-  getInfo,
-  getInfoFromPullRequest,
-} from '@changesets/get-github-info';
+import { getInfo, getInfoFromPullRequest } from '@changesets/get-github-info';
 
 /**
  * Bold the scope of the changelog entry.
