@@ -1,3 +1,5 @@
+overrides:
+  '@arethetypeswrong/core@0.18.2>fflate': 0.8.2 # Managed by skuba
 allowBuilds:
   '@ast-grep/lang-json': true # Managed by skuba
   '@ast-grep/lang-yaml': true # Managed by skuba
