@@ -32,15 +32,14 @@
     "format": "skuba format",
     "lint": "skuba lint",
     "release": "pnpm run --silent build && changeset publish",
-    "stage": "changeset version && node ./.changeset/inject.js && pnpm format",
+    "stage": "changeset version && pnpm skuba-changelog-inject && pnpm format",
     "start": "skuba start src/readme.ts",
     "test": "skuba test",
     "test:ci": "skuba test --coverage"
   },
-  "dependencies": {},
   "devDependencies": {
     "@changesets/cli": "2.31.0",
-    "@changesets/get-github-info": "0.8.0",
+    "@skuba-lib/changesets-changelog": "1.0.1",
     "skuba": "16.1.0"
   },
   "packageManager": "pnpm@10.33.2",
