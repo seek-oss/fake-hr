@@ -1,5 +1,11 @@
 # fake-hr
 
+## 1.5.0
+
+### Minor Changes
+
+- Migrates to ESM + Vitest as part of the skuba v16 upgrade ([#181](https://github.com/seek-oss/fake-hr/pull/181))
+
 ## 1.4.0
 
 ### Minor Changes
