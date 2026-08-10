@@ -38,7 +38,7 @@
     "test:ci": "skuba test --coverage"
   },
   "devDependencies": {
-    "@changesets/cli": "2.31.0",
+    "@changesets/cli": "2.31.1",
     "@skuba-lib/changesets-changelog": "1.0.1",
     "skuba": "16.2.0"
   },
