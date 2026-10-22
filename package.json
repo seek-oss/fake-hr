@@ -40,7 +40,7 @@
   "devDependencies": {
     "@changesets/cli": "2.31.0",
     "@skuba-lib/changesets-changelog": "2.0.0",
-    "skuba": "16.4.0"
+    "skuba": "16.4.2"
   },
   "packageManager": "pnpm@10.34.5",
   "engines": {
