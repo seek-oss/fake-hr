@@ -54,7 +54,7 @@
   "engines": {
     "node": ">=22.14.0"
   },
-  "packageManager": "pnpm@11.28.8",
+  "packageManager": "pnpm@12.21.0",
   "skuba": {
     "entryPoint": null,
     "template": "oss-npm-package",
